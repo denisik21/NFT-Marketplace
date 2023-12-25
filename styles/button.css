@@ -1,0 +1,55 @@
+.button-full {
+    display: flex;
+    padding: 20px 50px;
+    background-color: #A259FF;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+.button-full p {
+    margin-left: 12px;
+    font-weight: 600;
+}
+
+.button-email {
+    align-items: center;
+    position: absolute;
+    left: 217px;
+}
+
+.button-email p {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22.4px;
+}
+
+.button-empty {
+    display: flex;
+    padding: 20px 50px;
+    background-color: #2B2B2B;
+    border: 2px solid #A259FF;
+    border-radius: 20px;
+}
+
+.button-empty p {
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.button-magic {
+    background-color: white;
+    border: none;
+}
+
+.button-magic p{
+    color: black;
+}
+
+.footer-button p{
+margin-left: 0px;
+}

@@ -1,0 +1,53 @@
+footer {
+    height: 294px;
+    background-color: #3B3B3B;
+    padding-top: 40px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.footer-info {
+    display: grid;
+    grid-template-columns: 1.1fr 0.6fr 1.9fr;
+    grid-gap: 101px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #858584;
+}
+
+.footer-info h1{
+    font-family: 'Space Mono', monospace;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35.8px;
+    margin-bottom: 30px;
+}
+
+.footer-info ul li a, .footer-info ul li{
+    color: #CCCCCC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer-logo h1{
+    margin-bottom: 0px;
+}
+
+.weekly-digest ul li {
+    width: 330px;
+}
+
+.footer-down {
+    margin-top: 20px;
+    color: #CCCCCC;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.4px;
+}

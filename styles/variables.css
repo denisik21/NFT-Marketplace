@@ -1,0 +1,13 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-amethyst: #A259FF;
+    --color-gray-64: #2B2B2B;
+    --color-gray-32: #3B3B3B;
+    --color-gray-16: #858584;
+    --color-gray-8: #CCCCCC;
+
+    --font-family-mono-r: MonoR, monospace;
+	--font-family-mono-b: MonoB, monospace;
+	--font-family-sans-r: SansR, sans-serif;
+	--font-family-sans-b: SansB, sans-serif;
+}

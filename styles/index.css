@@ -1,0 +1,489 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #2B2B2B;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+
+.container-main {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.text-hero h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 67px;
+}
+
+.text-hero h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 35.2px;
+}
+
+/* кнопка */
+
+.hero-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 510px;
+    height: 77px;
+}
+
+.total-sale {
+    width: 150px;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.total-sale span{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+}
+
+
+.coment-placeholder {
+    margin-top: -5px;
+    padding: 22px 20px;
+    border-radius: 0 0 20px 20px;
+    background-color: #3B3B3B;
+}
+
+.coment-placeholder h3{
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user p {
+    margin-left: 12px;
+}
+
+.trending-collection {
+    font-family: 'Work Sans', sans-serif;
+    margin: 80px 0;
+}
+
+.collection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.card-collection {
+    width: 330px;
+    height: 525px;
+}
+
+.photo-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+
+}
+
+.item {
+    border-radius: 20px;
+}
+
+.photo-1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 330px;
+    margin-bottom: 15px;
+}
+
+.photo-2 {
+    height: 100px;
+    width: 100px;
+}
+
+.photo-3 {
+    height: 100px;
+    width: 100px;
+}
+
+.photo-4 {
+    height: 100px;
+    width: 100px;
+}
+
+.text-card {
+    margin-top: 15px;
+}
+
+.text-card h1 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 31px;
+}
+
+.user-collection p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+
+
+.top-creators {
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+
+.headline {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.headline-text h1{
+    font-size: 38px;
+    font-weight: 600px;
+    line-height: 45px;
+}
+
+.headline-text p{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 400px;
+    line-height: 35px;
+}
+
+.headline-button {
+    position: absolute;
+    top: 15px;
+    left: 800px;
+}
+
+/* кнопка */
+
+.artist-cards {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.artist-card {
+    width: 240px;
+    height: 220px;
+    padding-top: 20px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.artist-top-number {
+    display: grid;
+    position: absolute;
+    background-color: #2B2B2B;
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    top: 18px;
+    left: 20px;
+}
+
+.artist-top-number p{
+    margin: auto;
+}
+
+.artist-card h1 {
+    margin: 20px 0 5px 0;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20.8px;
+}
+
+.artist-card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #858584;
+}
+
+.artist-card p span{
+    font-family: 'Space Mono', monospace;
+    color: #FFFFFF;
+}
+
+/* font-family: 'Work Sans', sans-serif; */
+
+.categories {
+    padding-top: 80px;
+    margin-bottom: 80px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.categories-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 60px;
+}
+
+.categories-card {
+    border-radius: 20px;
+    width: 240px;
+    height: 316px;
+}
+
+.categories-card p {
+    margin-top: -5px;
+    padding: 20px 30px 25px 30px;
+    border-radius: 0 0 20px 20px;
+    background-color: #3B3B3B;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+}
+
+.more-nfts {
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+
+.more-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 60px;
+}
+
+
+.info-more-card {
+    margin-top: -5px;
+    background-color: #3B3B3B;
+    border-radius: 0 0 20px 20px;
+    padding: 20px 30px 25px 30px;
+}
+
+.info-more-card h1{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+    margin-bottom: 5px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    font-family: 'Space Mono', monospace;
+}
+
+.price-eth span, .price-bid span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.2px;
+    color: #858584;
+}
+
+.price-eth p, .price-bid p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+/* background: url(img/Layer_34.jpg) center no-repeat; */
+
+.magic-mushrooms {
+    margin: 0 auto 80px auto;
+    width: 1280px;
+    height: 640px;
+    background: url(../images/NFT.png) center no-repeat;
+    background-position: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.action-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 520px;
+    padding: 60px;
+}
+
+.magec-user {
+    width: 110px;
+    background-color: #3B3B3B;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.magec-user p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+.magic-info h1{
+    margin: 30px auto;
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 56.1px;
+}
+
+.auction-timer {
+    height: 84px;
+    width: 235px;
+    background-color: #3B3B3B80;
+    border-radius: 20px;
+    padding: 30px 30px 25px 30px;
+}
+
+.auction-timer p{
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.2px;
+}
+
+.auction-timer h1{
+    font-family: 'Space Mono', monospace;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45.6px;
+}
+
+.h-m-s {
+    display: grid;
+    grid-template-columns: 53px 18px 53px 18px 53px;
+    grid-column-gap: 10px;
+    grid-row-gap: 3px;
+}
+
+.hours-time h1, .minutes-time h1, .seconds-time h1, .colon h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45.6px;
+}
+
+.hours h1, .minutes h1, .seconds h1 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.2px;
+}
+
+
+.get-started {
+    margin-bottom: 120px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.started-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 48px;
+}
+
+.started-card {
+    text-align: center;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    padding: 10px 30px 30px 30px;
+}
+
+.started-card h1{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30.8px;
+}
+
+.started-card p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    padding: 60px;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 80px;
+}
+
+.subscribe-info {
+    margin-top: 20px;
+    width: 425px;
+}
+
+.subscribe-info h1{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45.6px;
+}
+
+.subscribe-info p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35.2px;
+    margin-top: 10px;
+}
+
+.forma {
+    display: flex;
+    position: relative;
+    margin-top: 40px;
+}
+
+.form-control {
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #2B2B2B;
+    padding: 20px 0 20px 20px;
+}

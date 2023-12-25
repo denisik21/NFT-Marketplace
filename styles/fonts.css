@@ -1,0 +1,19 @@
+@font-face {
+    font-family: MonoR;
+    src: url('../fonts/Space_Mono/SpaceMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: MonoB;
+    src: url('../fonts/Space_Mono/SpaceMono-Bold.ttf');
+}
+
+@font-face {
+    font-family: SansR;
+    src: url('../fonts/Work_Sans/WorkSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: SansB;
+    src: url('../fonts/Work_Sans/WorkSans-SemiBold.ttf');
+}
